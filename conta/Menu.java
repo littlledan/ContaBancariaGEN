@@ -15,7 +15,7 @@ public class Menu {
 			System.out.println(Cores.TEXT_WHITE_BOLD + Cores.ANSI_BLUE_BACKGROUND 
 					          +" _____________________________________________________ ");
 			System.out.println("|                                                     |");
-			System.out.println("|                    BANCO VALHALLA                   |");
+			System.out.println("|                   BANCO VALHALLA                    |");
 			System.out.println("|                                                     |");
 			System.out.println("|_____________________________________________________|");
 			System.out.println("|                                                     |");
@@ -86,11 +86,12 @@ public class Menu {
 
 	}
 			public static void sobre() {
-				System.out.println("\n_______________________________________________________");
-				System.out.println("Projeto Desenvolvido por: Carlos Daniel de Lima Ferreira ");
-				System.out.println("Generation Brasil - generation@generation.org");
-				System.out.println("github.com/littlledan");
-				System.out.println("_________________________________________________________");
+				System.out.println(Cores.TEXT_BLACK + Cores.ANSI_WHITE_BACKGROUND + 
+						         "\n _________________________________________________________ ");
+				System.out.println("|Projeto Desenvolvido por: Carlos Daniel de Lima Ferreira |");
+				System.out.println("|Generation Brasil - generation@generation.org            |");
+				System.out.println("|github.com/littlledan                                    |");
+				System.out.println("|_________________________________________________________|");
 			}
 
 }
