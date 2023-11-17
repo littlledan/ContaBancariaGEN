@@ -89,7 +89,7 @@ public class Menu {
 				System.out.println(Cores.TEXT_BLACK + Cores.ANSI_WHITE_BACKGROUND + 
 						         "\n _________________________________________________________ ");
 				System.out.println("|Projeto Desenvolvido por: Carlos Daniel de Lima Ferreira |");
-				System.out.println("|Generation Brasil - generation@generation.org            |");
+				System.out.println("|Daniel Lima - daniel799.dl@gmail.com                     |");
 				System.out.println("|github.com/littlledan                                    |");
 				System.out.println("|_________________________________________________________|");
 			}
