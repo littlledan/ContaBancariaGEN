@@ -29,11 +29,11 @@ public class Menu {
 		ContaCorrente cc2 = new ContaCorrente(contas.gerarNumero(), 124, 1, "Maria do grau", 2000.0f, 100.0f);
 		contas.cadastrar(cc2);
 		
-		ContaPoupanca cp1 = new ContaPoupanca(contas.gerarNumero(), 125, 1, "Julin do grau", 4000.0f, 12);
-		contas.cadastrar(cc1);
+		ContaPoupanca cp1 = new ContaPoupanca(contas.gerarNumero(), 125, 2, "Julin do grau", 4000.0f, 12);
+		contas.cadastrar(cp1);
 		
-		ContaPoupanca cp2 = new ContaPoupanca(contas.gerarNumero(), 125, 1, "Isa do grau", 8000.0f, 15);
-		contas.cadastrar(cc1);
+		ContaPoupanca cp2 = new ContaPoupanca(contas.gerarNumero(), 125, 2, "Isa do grau", 8000.0f, 15);
+		contas.cadastrar(cp2);
 		
 		contas.listarTodas();
 		
